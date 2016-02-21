@@ -10,7 +10,7 @@
     <body>
         <img class="poster" src="Images/Home-page-min.png" alt="100 Bullets poster" />
         <nav>
-            <ul>
+            <ul class="offset">
                 <li class="menu-item">
                     <a class="menu-link" href="https://youtube.com">Watch</a>
                 </li>
@@ -22,8 +22,12 @@
                 </li>
             </ul>
         </nav>
+        <div class="trailer-overlay hidden">
+            <iframe class="trailer" src="https://player.vimeo.com/video/153248396" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-        <script type="text/javascript" src="Scripts/homepage.js"></script>
+        <script type="text/javascript" src="/Scripts/image-resizer.js"></script>
         <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/Scripts/trailer.js"></script>
     </body>
 </html>
