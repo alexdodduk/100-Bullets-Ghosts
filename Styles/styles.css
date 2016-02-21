@@ -56,11 +56,11 @@ nav ul {
 }
 
 .about {
-    background-image: url('/Images/about-bg-min.png');
+    background-image: url('Images/about-bg-min.png');
 }
 
 .previous {
-    background-image: url('/Images/previous-bg-min.png');
+    background-image: url('Images/previous-bg-min.png');
     background-position: right;
     background-position: right 20% top;
     background-size: contain;
