@@ -4,24 +4,24 @@ $(document).ready(function () {
         windowHeight = window.innerHeight;
     
     // increase poster width
-    if (body.height() < windowHeight) {
-        var height = body.height();
+    if (body.outerHeight() < windowHeight) {
+        var height = body.outerHeight();
         
         while (height < (windowHeight - 10)) {
             poster.css('width', poster.width() + 1 + 'px');
             
-            height = body.height();
+            height = body.outerHeight();
         }
     }
     
     // increase poster width
-    if (body.height() > windowHeight) {
-        var height = body.height();
+    if (body.outerHeight() > windowHeight) {
+        var height = body.outerHeight();
         
         while (height > (windowHeight - 10)) {
             poster.css('width', poster.width() - 1 + 'px');
             
-            height = body.height();
+            height = body.outerHeight();
         }
     }
 })
