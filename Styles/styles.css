@@ -37,7 +37,8 @@ nav ul {
 }
 
 .poster {
-    width: 300px;
+    width: 36%;
+    max-width: 500px;
     margin: auto;
     display: block;
     position: relative;
@@ -49,10 +50,15 @@ body {
     padding-bottom: 100px;
 }
 
+body.home {
+    padding-top: 30px;
+    padding-bottom: 0;
+}
+
 .bg {
     padding-top: 8%;
     padding-bottom: 8%;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center right;
 }
@@ -76,7 +82,6 @@ body {
 
 .about-title {
     width: 200px;
-    margin-bottom: 1em;
 }
 
 .link {
@@ -86,6 +91,12 @@ body {
 .link:hover,
 .link:focus {
     color: rgb(127, 9, 35);
+}
+
+h2.link {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 24px;
 }
 
 .info {
