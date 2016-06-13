@@ -10,6 +10,7 @@ nav {
     position: fixed;
     bottom: 0;
     width: 100%;
+    background: rgba(0,0,0,0.666);
 }
 
 nav ul {
@@ -69,7 +70,7 @@ body.home {
 }
 
 .about {
-    background-image: url('/Images/about-bg-min.png');
+    background-image: url('../Images/about-bg-min.png');
 }
 
 
@@ -130,4 +131,8 @@ h2.link {
 
 .previous-text {
     margin-top: 13px;
+}
+
+h3 {
+    text-align: center;
 }
